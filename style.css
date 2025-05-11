@@ -87,7 +87,7 @@ body {
     background-color: green;
 }
 
-@media (max-width:650px) {
+@media (max-width:800px) {
     :root {
         --hight: 80%;
         --width: 30%;
