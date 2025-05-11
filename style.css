@@ -28,10 +28,10 @@ body {
 
 
 .login {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-image: url("https://wallpapercave.com/uwp/uwp3633986.webp");
-    background-size: cover;
+    background-size: contain;
     display: grid;
     place-items: center;
 }
