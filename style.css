@@ -19,22 +19,29 @@ body {
 
 }
 
+:root {
+    --hight: 80%;
+    --width: 70%;
+    --frist-input-hight: var(--hight);
+    --frist-input-width: calc(var(--hight)/6);
+}
+
+
 .login {
     height: 100vh;
+    width: 100vw;
     background-image: url("https://wallpapercave.com/uwp/uwp3633986.webp");
-    background-size: 100%;
-    place-content: center;
-    justify-items: center;
-
-
+    background-size: cover;
+    display: grid;
+    place-items: center;
 }
 
 .frist {
-    width: 400px;
-    height: 240px;
+    width: var(--hight);
+    height: var(--width);
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(3px);
-    border-radius: 15px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -44,13 +51,13 @@ body {
 }
 
 .frist input {
-    width: 300px;
-    height: 40px;
+    width: var(--frist-input-hight);
+    height: var(--frist-input-width);
     background-color: transparent;
     text-align: center;
     border: transparent;
     color: pink;
-    font-size: 40px;
+    font-size: 25px;
 
 }
 
@@ -62,8 +69,8 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
     background-color: pink;
-    font-size: 20px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .main {
@@ -76,4 +83,11 @@ body {
     width: 100%;
     height: 100vh;
     background-color: green;
+}
+
+@media (max-width:650px) {
+    :root {
+        --hight: 80%;
+        --width: 30%;
+    }
 }
