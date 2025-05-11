@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.login {
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/uwp/uwp3633986.webp");
+    background-size: 100%;
+    place-content: center;
+    justify-items: center;
+
+
+}
+
+.frist {
+    width: 230px;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.frist input {
+    width: 200px;
+    background-color: transparent;
+    text-align: center;
+    border: transparent;
+    color: pink;
+    font-size: 20px;
+
+}
+
+.frist input:focus {
+    outline: none;
+}
+
+.frist a {
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.main2 {
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
