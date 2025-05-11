@@ -24,6 +24,8 @@ body {
     --width: 70%;
     --frist-input-hight: var(--hight);
     --frist-input-width: calc(var(--hight)/6);
+    --log-SFS: 25px;
+    --log-IFS: calc(1.2* var(--log-SFS));
 }
 
 
@@ -57,7 +59,7 @@ body {
     text-align: center;
     border: transparent;
     color: pink;
-    font-size: 25px;
+    font-size: var(--log-IFS);
 
 }
 
@@ -70,7 +72,7 @@ body {
     border-radius: 10px;
     background-color: pink;
     cursor: pointer;
-    font-size: 20px;
+    font-size: var(--log-SFS);
 }
 
 .main {
@@ -89,5 +91,6 @@ body {
     :root {
         --hight: 80%;
         --width: 30%;
+        --log-SFS: 15px;
     }
 }
