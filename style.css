@@ -30,8 +30,8 @@ body {
 }
 
 .frist {
-    width: 230px;
-    height: 130px;
+    width: 400px;
+    height: 240px;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(3px);
     border-radius: 15px;
@@ -44,12 +44,13 @@ body {
 }
 
 .frist input {
-    width: 200px;
+    width: 300px;
+    height: 40px;
     background-color: transparent;
     text-align: center;
     border: transparent;
     color: pink;
-    font-size: 20px;
+    font-size: 40px;
 
 }
 
@@ -58,9 +59,10 @@ body {
 }
 
 .frist a {
-    padding: 4px 10px;
+    padding: 10px 20px;
     border-radius: 10px;
     background-color: pink;
+    font-size: 20px;
     cursor: pointer;
 }
 
