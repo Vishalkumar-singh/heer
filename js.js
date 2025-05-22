@@ -1,5 +1,5 @@
 const key = "123";
-const key2 = "555";
+const key2 = "MERIHEER";
 let checkPass = document.querySelector(".inPass");
 let pass = document.querySelector(".yourPass");
 let loginP = document.querySelector(".login");
