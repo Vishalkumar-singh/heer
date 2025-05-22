@@ -126,10 +126,6 @@ body {
         background-size: 100vw 90vh;
     }
 
-    .main2 {
-        display: block;
-    }
-
     .main2 .text p {
         padding: 0px 20px;
     }
