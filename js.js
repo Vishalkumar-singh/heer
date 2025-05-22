@@ -31,25 +31,25 @@ checkPass.addEventListener("click", () => {
 
 
 
-let send = document.querySelector(".send");
-let massage = document.querySelector(".send-mass");
-send.addEventListener("click", () => {
-    (function () {
-        emailjs.init("kumarsinghvishal496@gmail.com"); // Replace with your EmailJS user ID
-    })();
-    function sendEmail() {
-        var params = {
-            to_name: "💞",
-            from_name: "Heer",
-            message: massage.value
-        };
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", params) // Replace with your EmailJS service and template IDs
-            .then(function (response) {
-                alert("Email sent successfully!", response);
-            }, function (error) {
-                alert("Error sending email:", error);
-            });
-    }
+// let send = document.querySelector(".send");
+// let massage = document.querySelector(".send-mass");
+// send.addEventListener("click", () => {
+//     (function () {
+//         emailjs.init("kumarsinghvishal496@gmail.com"); // Replace with your EmailJS user ID
+//     })();
+//     function sendEmail() {
+//         var params = {
+//             to_name: "💞",
+//             from_name: "Heer",
+//             message: massage.value
+//         };
+//         emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", params) // Replace with your EmailJS service and template IDs
+//             .then(function (response) {
+//                 alert("Email sent successfully!", response);
+//             }, function (error) {
+//                 alert("Error sending email:", error);
+//             });
+//     }
 
-});
+// });
 
